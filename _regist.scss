@@ -1,0 +1,75 @@
+.regist {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: block;
+}
+
+.regist__text {
+
+    margin-bottom: -2rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.188rem;
+
+    color: #222222;
+}
+
+.btn__regist {
+    padding: 0.5rem 2.625rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background: #F16D7F;
+    color: #FFFFFF;
+}
+
+.regist__left {
+    margin-top: 2.5rem;
+    width: 33%;
+    margin-left: 23rem;
+}
+
+.female {
+    margin-left: 3rem;
+}
+
+.form__mt {
+    margin-top: 1rem;
+}
+
+.regist__right {
+    width: 70%;
+    margin-top: 2.5rem;
+
+
+}
+
+.p__text {
+    width: 20rem;
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.813rem;
+    line-height: 1rem;
+    color: #B1B1B1;
+}
+
+.text {
+    width: 80%;
+    height: 2.813rem;
+    margin-top: 2.5rem;
+}
+
+
+.offer__p {
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    color: #000000;
+}

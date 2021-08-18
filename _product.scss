@@ -1,0 +1,55 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide__info {
+    text-align: center;
+
+}
+
+.slide__info__text {
+    padding: 2rem 0;
+}
+
+
+
+.slide__info__text p,
+.slide__info__text h2 {
+    padding: 2rem 14rem;
+}
+
+.item_1 {
+    color: #F16D7F;
+
+}
+
+.item_2 {
+    color: #4D4D4D;
+}
+
+.item_3 {
+    color: #4D4D4D;
+}
+
+.btn__text {
+    vertical-align: middle;
+
+}
+
+.product__sort {
+    justify-content: center;
+    padding-top: 9.438rem;
+
+}
+
+.product__sort .sort__param {
+    margin-left: 0;
+
+}
+
+.price {
+    color: #EF5B70;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afdc7aa636.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href=""><img class="header__search" src="img/search.svg" alt="search"></a>
+        </div>
+        <div class="header__right">
+            <input id="switcher" type="checkbox">
+            <label for="switcher"><img src="img/menu.svg" alt="menu"></label>
+            <nav class="drop">
+                <div class="header__box header__box_nav">
+                    <img class="header__accoutn" src="img/account.svg" alt="account">
+                    <img src="img/cart.svg" alt="cart">
+                </div>
+                <span class="drop__name">MENU</span>
+                <div class="drop__box">
+                    <a href="catalog.html" class="drop__heading">MAN</a>
+                    <ul class="drop__ul">
+                        <li><a class="drop__link" href="#">Accessories</a></li>
+                        <li><a class="drop__link" href="#">Bags</a></li>
+                        <li><a class="drop__link" href="#">Denim</a></li>
+                        <li><a class="drop__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="drop__box">
+                    <a href="catalog.html" class="drop__heading">MAN</a>
+                    <ul class="drop__ul">
+                        <li><a class="drop__link" href="#">Accessories</a></li>
+                        <li><a class="drop__link" href="#">Bags</a></li>
+                        <li><a class="drop__link" href="#">Denim</a></li>
+                        <li><a class="drop__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="drop__box">
+                    <a href="catalog.html" class="drop__heading">MAN</a>
+                    <ul class="drop__ul">
+                        <li><a class="drop__link" href="#">Accessories</a></li>
+                        <li><a class="drop__link" href="#">Bags</a></li>
+                        <li><a class="drop__link" href="#">Denim</a></li>
+                        <li><a class="drop__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__box">
+                <a href="regist.html"><img class="header__accoutn" src="img/account.svg" alt="account"></a>
+                <a href="cart.html"><img src="img/cart.svg" alt="cart"></a>
+            </div>
+        </div>
+    </div>
+    <section class="site-info center">
+        <h2 class="site-info__heading">SHOPPING CART </h2>
+    </section>
+
+    <div class="cart-content center">
+        <div class="cart-product">
+            <div class="card card_mb cart__left">
+                <img class="card__img" src="img/image3.jpg" alt="image">
+                <div class="card__content">
+                    <h3 class="card__heading">MANGO PEOPLE T-SHIRT</h3>
+                    <p class="card__text">Price: $300</p>
+                    <p class="card__text">Color: Red</p>
+                    <p class="card__text">Size: Xl</p>
+                    <p class="card__text">Quantity: <input type="number" min="1" max="5" value="2"></p>
+                </div>
+                <div class="card__content">
+
+                    <button>X</button>
+
+                </div>
+
+            </div>
+            <div class="adress__add cart__right">
+                <div class="cart__block">
+                    <form action="#">
+                        <h3 class="adress__text">SHIPPING ADRESS</h3>
+                        <div class="adress__imput">
+                            <input class="text" type="email">
+                            <input class="text" type="email">
+                            <input class="text" type="email">
+                        </div>
+                        <button>GET A QUOTE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-content center">
+        <div class="cart-product">
+            <div class="card card_mb cart__left">
+                <img class="card__img" src="img/image2.jpg" alt="image">
+                <div class="card__content">
+                    <h3 class="card__heading">MANGO PEOPLE T-SHIRT</h3>
+                    <p class="card__text">Price: $300</p>
+                    <p class="card__text">Color: Red</p>
+                    <p class="card__text">Size: Xl</p>
+                    <p class="card__text">Quantity: <input type="number" min="1" max="5" value="2"></p>
+                </div>
+                <div class="card__content">
+
+                    <button>X</button>
+
+                </div>
+
+            </div>
+            <div class="buy__add buy__right">
+                <div class="buy__block">
+                    <form action="#">
+                        <h2 class="buy__text">SUB TOTAL $900</h2>
+                        <h3 class="buy__text_buy">GRAND TOTAL $900</h3>
+                        <hr class="buy__hr">
+                        <button class="button__cart_text">PROCEED TO CHECKOUT</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <Form>
+            <button class="button__cart_left">CLEAR SHOPPING CART</button>
+            <button class="button__cart_right">CONTINUE SHOPPING</button>
+        </Form>
+    </div>
+
+
+
+
+
+
+    <div class="contacts">
+        <div class="contact_us center">
+            <div class="contact__left">
+                <img class="contact__img" src="img/cat.png" alt="cat">
+                <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+            <div class="contact__right">
+                <div class="contact__content">
+                    <p class="contact__text">SUBSCRIBE FOR OUR NEWLETTER AND PROMOTION</p>
+                </div>
+                <form class="subscribe">
+                    <input type="email">
+                    <button>subscribe</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__bottom center">
+                <div class="footer__left">
+                    <p class="footer__copy">&copy; 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__icons">
+                        <a href="#" class="footer__icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="#" class="footer__icon">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="#" class="footer__icon">
+                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="#" class="footer__icon">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

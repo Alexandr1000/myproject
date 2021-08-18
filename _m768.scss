@@ -1,0 +1,28 @@
+@media (max-width: 63.938rem) {
+
+    .center {
+        padding-left: calc(50% - 23.063rem);
+        padding-right: calc(50% - 23.063rem);
+
+    }
+
+    .catalog {
+        padding-top: 1.25rem;
+    }
+
+    .contacts {
+
+        flex-direction: column;
+    }
+
+    .contact__left {
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .contact__right {
+
+        padding-top: 0;
+    }
+}
